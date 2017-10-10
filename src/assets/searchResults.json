@@ -19,8 +19,8 @@
       "Type": "OUT",
       "FromCode": "LGW",
       "FromName": "London Gatwick Airport",
-      "ToCode": "SFB",
-      "ToName": "Orlando Sanford International Airport",
+      "ToCode": "ACE",
+      "ToName": "Lanzarote Airport",
       "DepartureDate": "11/07/2017",
       "DepartureTime": "09:40",
       "ArrivalDate": "11/07/2017",
@@ -32,7 +32,6 @@
     }
   ],
   "rtn": [
-
     {
       "Type": "RTN",
       "FromCode": "ACE",
@@ -51,8 +50,8 @@
 
     {
       "Type": "RTN",
-      "FromCode": "SFB",
-      "FromName": "Orlando Sanford International Airport",
+      "FromCode": "ACE",
+      "FromName": "Lanzarote Airport",
       "ToCode": "LGW",
       "ToName": "London Gatwick Airport",
       "DepartureDate": "11/14/2017",

@@ -16,11 +16,12 @@
       </table>
       <table class="example-full-width" ><tr>
         <td><mat-form-field >
-            <mat-select placeholder="Flying From" [(ngModel)]="selectedFrom" name="flyingFrom">
-              <mat-option *ngFor="let airport of fromAirports" [value]="airport.Code" >
-                {{ airport.Name }}
-              </mat-option>
-            </mat-select>
+          <input type="text" placeholder="Flying From(Type to select)" aria-label="string" matInput [formControl]="airportCtrl" [matAutocomplete]="auto">
+          <mat-autocomplete #auto="matAutocomplete">
+            <mat-option *ngFor="let option of filteredAirports | async" [value]="option.Name">
+              {{ option.Name }}
+            </mat-option>
+          </mat-autocomplete>
           </mat-form-field>
           </td>
         <td><mat-form-field >

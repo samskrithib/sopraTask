@@ -13,6 +13,7 @@ import {MatIconRegistry} from '@angular/material';
 export class SearchResultsComponent implements OnInit {
   OutResults: ResultStructure[];
   RtnResults: ResultStructure[];
+  data: any;
   constructor(private dataService: MyDataService, iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
     iconRegistry.addSvgIcon(
       'Outbound',
@@ -24,9 +25,9 @@ export class SearchResultsComponent implements OnInit {
 
   ngOnInit() {
     this.dataService.fetchSearchResults().subscribe(searchResults => {
-      console.log(searchResults);
-      this.OutResults = searchResults.out;
-      this.RtnResults = searchResults.rtn;
+      this.data = searchResults.data[0]
+      this.OutResults = this.data.out;
+      this.RtnResults = this.data.rtn;
     });
   }
 
