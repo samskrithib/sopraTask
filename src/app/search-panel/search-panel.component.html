@@ -26,7 +26,7 @@
           </td>
         <td><mat-form-field >
           <mat-select placeholder="Flying To" [(ngModel)]="selectedTo" name="flyingTo">
-            <mat-option *ngFor="let airport of departingAirports" [value]="airport.Code" >
+            <mat-option *ngFor="let airport of departingAirports " [value]="airport.Code" >
               {{ airport.Name }}
             </mat-option>
           </mat-select>
@@ -71,6 +71,27 @@
       <button mat-raised-button color="primary" (click)="submit()"  >Submit</button>
     </form>
   </div>
-  <div class="addPanel" fxFlex="33.33%" >[flex -33]</div>
+  <div class="addPanel" fxFlex="33.33%" >
+    <mat-card class="example-card">
+      <!--<mat-card-header>-->
+        <!--<div mat-card-avatar class="example-header-image"></div>-->
+        <mat-card-title>Shiba Airlines Special OFFER !!</mat-card-title>
+        <!--<mat-card-subtitle>Airlines</mat-card-subtitle>-->
+      <!--</mat-card-header>-->
+      <img mat-card-image src="../../assets/flight.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+          This trip is packed with outdoor adventures from start to finish. Your venue for the day is Kittila’s Snow Village,
+          which is home to an ice hotel, an ice bar and an ice chapel.
+          You’ll have plenty of time to explore the igloo-like hotel rooms and admire the impressive sculptures that have been carved from frozen water.
+          For a full rundown of what’s in store, take a look at the itinerary.
+        </p>
+      </mat-card-content>
+      <!--<mat-card-actions>-->
+        <!--&lt;!&ndash;<button mat-button>GO</button>&ndash;&gt;-->
+        <!--<button mat-button></button>-->
+      <!--</mat-card-actions>-->
+    </mat-card>
+  </div>
 </div>
 

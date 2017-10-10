@@ -13,7 +13,7 @@
   padding: 20px;
 }
 .addPanel{
-  background-color: gainsboro;
+  background-color: white;
 }
 .example-radio-group {
   display: inline-flex;
@@ -25,4 +25,16 @@
 }
 .mat-form-field{
   width: 250px !important;
+}
+.example-card {
+  width: inherit;
+}
+
+.example-header-image {
+  background-image: url('../../assets/flight.jpg');
+  background-size: cover;
+}
+.inputform{
+  background: white;
+  min-height: 600px;
 }
