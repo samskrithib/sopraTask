@@ -1,0 +1,19 @@
+.mat-grid-tile .mat-figure{
+  justify-content: left !important;
+  display: inline!important;
+}
+.mat-list .mat-list-item .mat-line{
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.price .price-value{
+  font-size: 42px !important;
+  font-family: "Times New Roman";
+  /*font-style: oblique;*/
+}
+.discountCnt{
+  padding: 10px 0px;
+}
+.btnCnt{
+  padding-top: 10px;
+}

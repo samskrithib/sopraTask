@@ -1,0 +1,75 @@
+<!--<p>-->
+  <!--search-panel works!-->
+<!--</p>-->
+<div fxLayout="row " class="InputForm">
+  <div class="searchPanel" fxFlex="66.66%" style="height: 500px" >
+    <form class="example-form">
+      <table class="example-full-width">
+        <tr>
+          <td>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="selectedBookingType" name="bookingType">
+              <mat-radio-button class="example-radio-button" *ngFor="let type of bookingTypes" [value]="type" >
+                {{type}}
+              </mat-radio-button>
+            </mat-radio-group>          </td>
+        </tr>
+      </table>
+      <table class="example-full-width" ><tr>
+        <td><mat-form-field >
+            <mat-select placeholder="Flying From" [(ngModel)]="selectedFrom" name="flyingFrom">
+              <mat-option *ngFor="let airport of fromAirports" [value]="airport.Code" >
+                {{ airport.Name }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          </td>
+        <td><mat-form-field >
+          <mat-select placeholder="Flying To" [(ngModel)]="selectedTo" name="flyingTo">
+            <mat-option *ngFor="let airport of departingAirports" [value]="airport.Code" >
+              {{ airport.Name }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field></td>
+      </tr></table>
+      <table class="example-full-width"><tr>
+        <td>
+          <mat-form-field>
+            <input matInput [matDatepicker]="picker" placeholder="Departing date">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </td>
+        <td><mat-form-field *ngIf="selectedBookingType === 'Return'">
+          <input matInput [matDatepicker]="picker1" placeholder="Returning date">
+          <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+          <mat-datepicker #picker1></mat-datepicker>
+        </mat-form-field></td>
+      </tr>
+
+      </table>
+
+
+      <table class="example-full-width" ><tr>
+        <td><mat-form-field>
+          <mat-select placeholder="Adults" [(ngModel)]="selectedValue" name="adults">
+            <mat-option *ngFor="let adult of adults" [value]="adult" >
+              {{ adult }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field></td>
+        <td><mat-form-field>
+          <mat-select placeholder="Children">
+            <mat-option *ngFor="let child of children" [value]="child">
+              {{ child }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field></td>
+
+      </tr></table>
+
+      <button mat-raised-button color="primary" (click)="submit()"  >Submit</button>
+    </form>
+  </div>
+  <div class="addPanel" fxFlex="33.33%" >[flex -33]</div>
+</div>
+

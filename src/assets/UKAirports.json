@@ -1,0 +1,114 @@
+[
+  {
+    "Code": "BHX",
+    "Name": "Birmingham International Airport",
+    "Group": "Any Midlands",
+    "Location": "Birmingham",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "BOH",
+    "Name": "Bournemouth Airport",
+    "Group": "Any South West",
+    "Location": "Bournemouth",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "BRS",
+    "Name": "Bristol Airport",
+    "Group": "Any South West",
+    "Location": "Bristol",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "CWL",
+    "Name": "Cardiff International Airport",
+    "Group": "Any South West",
+    "Location": "Cardiff",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "DSA",
+    "Name": "Robin Hood Doncaster Sheffield Airport",
+    "Group": "Any North East",
+    "Location": "Doncaster",
+    "Country": " Sheffield"
+  },
+  {
+    "Code": "EDI",
+    "Name": "Edinburgh Airport",
+    "Group": "Any Scotland",
+    "Location": "Edinburgh",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "EMA",
+    "Name": "East Midlands Airport",
+    "Group": "Any Midlands",
+    "Location": "East Midlands",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "EXT",
+    "Name": "Exeter International Airport",
+    "Group": "Any South West",
+    "Location": "Exeter",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "GLA",
+    "Name": "Glasgow International Airport",
+    "Group": "Any Scotland",
+    "Location": "Glasgow",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "LGW",
+    "Name": "London Gatwick Airport",
+    "Group": "Any London",
+    "Location": "London",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "LTN",
+    "Name": "London Luton Airport",
+    "Group": "Any London",
+    "Location": "London",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "MAN",
+    "Name": "Manchester Airport",
+    "Group": "Any North West",
+    "Location": "Manchester",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "NCL",
+    "Name": "Newcastle Airport",
+    "Group": "Any North East",
+    "Location": "Newcastle",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "STN",
+    "Name": "London Stansted Airport",
+    "Group": "Any London",
+    "Location": "London",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "ABZ",
+    "Name": "Aberdeen Dyce Airport",
+    "Group": "Any Scotland",
+    "Location": "Aberdeen",
+    "Country": "United Kingdom"
+  },
+  {
+    "Code": "NWI",
+    "Name": "Norwich International Airport",
+    "Group": "Any South East",
+    "Location": "Norwich",
+    "Country": "United Kingdom"
+  }
+]

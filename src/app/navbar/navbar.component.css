@@ -1,0 +1,23 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+
+.container{
+  max-width: 80em;
+}
+.navItem{
+  padding: 0px 10px 10px 15px;
+  /*margin: 10px 0px 0px 0px;*/
+  /*font-size: 0.8em;*/
+  /*background-color: orange;*/
+}
+.navBar{
+  height: 56px;
+  background-color: coral;
+}
+
+.InputForm{
+  min-height: 250px;
+  /*background-color: grey;*/
+}
+

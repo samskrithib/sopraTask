@@ -1,0 +1,11 @@
+.mainPage{
+  padding: 0px 100px 0px 100px;
+  color: gainsboro;
+  /*background-repeat: no-repeat;*/
+  /*min-height: 620px;*/
+}
+@media screen and (max-width: 1024px) {
+  .mainPage{
+    padding: 0px;
+  }
+}

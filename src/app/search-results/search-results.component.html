@@ -1,0 +1,98 @@
+<mat-card *ngFor="let out of OutResults; let i = index" class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title></mat-card-title>
+    <mat-card-subtitle></mat-card-subtitle>
+  </mat-card-header>
+  <!--<img mat-card-image src="http://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">-->
+  <mat-card-content>
+    <mat-grid-list cols="4" rowHeight="100px">
+      <mat-grid-tile [colspan]="3" [rowspan]="1" [style.background]="'lightgrey'">
+        <mat-list fxLayout="row wrap">
+          <mat-list-item fxFlex="30%">
+            <mat-icon svgIcon="Rtn" mat-list-icon></mat-icon>
+            <h4 mat-line>{{out.FromName}}</h4>
+            <p mat-line>( {{out.FromCode}} ) </p>
+          </mat-list-item>
+          <mat-divider></mat-divider>
+          <mat-list-item fxFlex="5%">
+            <i class="fa fa-caret-right fa-2x" [style.padding-top]="'20px'" style="color: gray" aria-hidden="true"></i>
+          </mat-list-item>
+          <mat-list-item fxFlex="25%">
+            <h4 mat-line>{{out.ToName}}</h4>
+            <p mat-line>({{out.ToCode}})</p>
+          </mat-list-item>
+          <mat-list-item fxFlex="20%">
+            <h4 mat-line>{{out.DepartureDate | date: 'mediumDate'}}</h4>
+            <!--<p mat-line> {{out.DepartureDate}} </p>-->
+          </mat-list-item>
+          <mat-list-item fxFlex="20%">
+            <h4 mat-line>{{out.DepartureTime}} <i class="fa fa-caret-right fa-fw" style="color: gray"
+                                                  aria-hidden="true"></i> {{out.ArrivalTime}} </h4>
+            <p mat-line>
+              <small>Duration: {{out.FlightDuration}} hrs</small>
+            </p>
+          </mat-list-item>
+        </mat-list>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="1" [rowspan]="2" [style.background]="'lightgrey'">
+        <mat-list fxLayout="column">
+          <mat-list-item class="price">
+            <p mat-line class="price-value">
+              <span><strong>£</strong></span>
+              {{out.Price +  RtnResults[i].Price}}
+            </p>
+          </mat-list-item>
+          <mat-divider></mat-divider>
+          <mat-list-item class="discountCnt" >
+            <div fxLayout="column">
+              <h4 style="color: red"> <i class="fa fa-gbp" style="color: red" aria-hidden="true"></i> Includes £20pp discount </h4>
+              <p><small><i class="fa fa-percent" style="color: gray" aria-hidden="true"></i> Includes taxes and charges </small> </p>
+              <!--<p> Only 3 seats left! </p>-->
+            </div>
+          </mat-list-item>
+          <mat-divider></mat-divider>
+          <mat-list-item class="btnCnt">
+            <button mat-raised-button class="mat-primary"  style="font-size: 20px">Continue</button>
+          </mat-list-item>
+        </mat-list>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="3" [rowspan]="1" [style.background]="'lightgrey'">
+        <mat-list fxLayout="row wrap">
+
+          <mat-list-item fxFlex="30%">
+            <mat-icon svgIcon="Outbound" mat-list-icon></mat-icon>
+            <h4 mat-line>{{RtnResults[i].FromName}}</h4>
+            <p mat-line> {{RtnResults[i].FromCode}} </p>
+          </mat-list-item>
+          <mat-divider></mat-divider>
+          <mat-list-item fxFlex="5%">
+            <i class="fa fa-caret-right fa-2x" [style.padding-top]="'20px'" style="color: gray" aria-hidden="true"></i>
+          </mat-list-item>
+          <mat-list-item fxFlex="25%">
+            <h4 mat-line>{{RtnResults[i].ToName}}</h4>
+            <p mat-line>({{RtnResults[i].ToCode}})</p>
+          </mat-list-item>
+          <mat-list-item fxFlex="20%">
+            <h4 mat-line>{{RtnResults[i].DepartureDate | date: 'mediumDate'}}</h4>
+            <!--<p mat-line> {{out.DepartureDate}} </p>-->
+          </mat-list-item>
+          <mat-list-item fxFlex="20%">
+            <h4 mat-line>{{RtnResults[i].DepartureTime}} <i class="fa fa-caret-right fa-fw" style="color: gray"
+                                                            aria-hidden="true"></i> {{RtnResults[i].ArrivalTime}} </h4>
+            <p mat-line>
+              <small>Duration: {{RtnResults[i].FlightDuration}} hrs</small>
+            </p>
+
+          </mat-list-item>
+        </mat-list>
+      </mat-grid-tile>
+
+
+    </mat-grid-list>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>

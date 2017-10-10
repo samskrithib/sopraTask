@@ -1,0 +1,290 @@
+[
+  {
+    "Code": "ACE",
+    "Name": "Lanzarote Airport",
+    "Group": "Arrecife",
+    "Location": "Spain"
+  },
+  {
+    "Code": "AGA",
+    "Name": "Al Massira Airport",
+    "Group": "Agadir",
+    "Location": "Morocco"
+  },
+  {
+    "Code": "AGP",
+    "Name": "Málaga Airport",
+    "Group": "Malaga",
+    "Location": "Spain"
+  },
+  {
+    "Code": "ALC",
+    "Name": "Alicante International Airport",
+    "Group": "Alicante",
+    "Location": "Spain"
+  },
+  {
+    "Code": "AQJ",
+    "Name": "Aqaba King Hussein International Airport",
+    "Group": "Aqaba",
+    "Location": "Jordan"
+  },
+  {
+    "Code": "AYT",
+    "Name": "Antalya International Airport",
+    "Group": "Antalya",
+    "Location": "Turkey"
+  },
+  {
+    "Code": "BGI",
+    "Name": "Sir Grantley Adams International Airport",
+    "Group": "Bridgetown",
+    "Location": "Barbados"
+  },
+  {
+    "Code": "BKK",
+    "Name": "Suvarnabhumi Airport",
+    "Group": "Bangkok",
+    "Location": "Thailand"
+  },
+  {
+    "Code": "BVC",
+    "Name": "Rabil Airport",
+    "Group": "Boa Vista",
+    "Location": "Cape Verde"
+  },
+  {
+    "Code": "CMB",
+    "Name": "Bandaranaike International Colombo Airport",
+    "Group": "Colombo",
+    "Location": "Sri Lanka"
+  },
+  {
+    "Code": "COK",
+    "Name": "Cochin International Airport",
+    "Group": "Kochi",
+    "Location": "India"
+  },
+  {
+    "Code": "CTA",
+    "Name": "Catania-Fontanarossa Airport",
+    "Group": "Catania",
+    "Location": "Italy"
+  },
+  {
+    "Code": "CUN",
+    "Name": "Cancún International Airport",
+    "Group": "Cancun",
+    "Location": "Mexico"
+  },
+  {
+    "Code": "DLM",
+    "Name": "Dalaman International Airport",
+    "Group": "Dalaman",
+    "Location": "Turkey"
+  },
+  {
+    "Code": "DWC",
+    "Name": "Al Maktoum International Airport",
+    "Group": "Dubai",
+    "Location": "United Arab Emirates"
+  },
+  {
+    "Code": "FAO",
+    "Name": "Faro Airport",
+    "Group": "Faro",
+    "Location": "Portugal"
+  },
+  {
+    "Code": "FNC",
+    "Name": "Madeira Airport",
+    "Group": "Funchal",
+    "Location": "Portugal"
+  },
+  {
+    "Code": "FUE",
+    "Name": "Fuerteventura Airport",
+    "Group": "Fuerteventura",
+    "Location": "Spain"
+  },
+  {
+    "Code": "GOI",
+    "Name": "Dabolim Airport",
+    "Group": "Goa",
+    "Location": "India"
+  },
+  {
+    "Code": "HER",
+    "Name": "Heraklion International Nikos Kazantzakis Airport",
+    "Group": "Heraklion",
+    "Location": "Greece"
+  },
+  {
+    "Code": "HKT",
+    "Name": "Phuket International Airport",
+    "Group": "Phuket",
+    "Location": "Thailand"
+  },
+  {
+    "Code": "HRG",
+    "Name": "Hurghada International Airport",
+    "Group": "Hurghada",
+    "Location": "Egypt"
+  },
+  {
+    "Code": "IVL",
+    "Name": "Ivalo Airport",
+    "Group": "Ivalo",
+    "Location": "Finland"
+  },
+  {
+    "Code": "KEF",
+    "Name": "Keflavik International Airport",
+    "Group": "",
+    "Location": ""
+  },
+  {
+    "Code": "KTT",
+    "Name": "Kittilä Airport",
+    "Group": "Kittila",
+    "Location": "Finland"
+  },
+  {
+    "Code": "LCA",
+    "Name": "Larnaca International Airport",
+    "Group": "Larnaca",
+    "Location": "Cyprus"
+  },
+  {
+    "Code": "LGK",
+    "Name": "Langkawi International Airport",
+    "Group": "Langkawi",
+    "Location": "Malaysia"
+  },
+  {
+    "Code": "LIR",
+    "Name": "Daniel Oduber Quiros International Airport",
+    "Group": "Liberia",
+    "Location": "Costa Rica"
+  },
+  {
+    "Code": "LPA",
+    "Name": "Gran Canaria Airport",
+    "Group": "Gran Canaria",
+    "Location": "Spain"
+  },
+  {
+    "Code": "MBJ",
+    "Name": "Sangster International Airport",
+    "Group": "Montego Bay",
+    "Location": "Jamaica"
+  },
+  {
+    "Code": "MCT",
+    "Name": "Muscat International Airport",
+    "Group": "Muscat",
+    "Location": "Oman"
+  },
+  {
+    "Code": "MLA",
+    "Name": "Malta International Airport",
+    "Group": "Malta",
+    "Location": "Malta"
+  },
+  {
+    "Code": "MRU",
+    "Name": "Sir Seewoosagur Ramgoolam International Airport",
+    "Group": "Plaisance",
+    "Location": "Mauritius"
+  },
+  {
+    "Code": "NAP",
+    "Name": "Naples International Airport",
+    "Group": "Naples",
+    "Location": "Italy"
+  },
+  {
+    "Code": "PFO",
+    "Name": "Paphos International Airport",
+    "Group": "Paphos",
+    "Location": "Cyprus"
+  },
+  {
+    "Code": "PMI",
+    "Name": "Palma De Mallorca Airport",
+    "Group": "Palma de Mallorca",
+    "Location": "Spain"
+  },
+  {
+    "Code": "PQC",
+    "Name": "Phu Quoc International Airport",
+    "Group": "Phuquoc",
+    "Location": "Vietnam"
+  },
+  {
+    "Code": "PUJ",
+    "Name": "Punta Cana International Airport",
+    "Group": "Punta Cana",
+    "Location": "Dominican Republic"
+  },
+  {
+    "Code": "PVR",
+    "Name": "Licenciado Gustavo Díaz Ordaz International Airport",
+    "Group": "Puerto Vallarta",
+    "Location": "Mexico"
+  },
+  {
+    "Code": "RAK",
+    "Name": "Menara Airport",
+    "Group": "Marrakech",
+    "Location": "Morocco"
+  },
+  {
+    "Code": "RHO",
+    "Name": "Diagoras Airport",
+    "Group": "Rhodos",
+    "Location": "Greece"
+  },
+  {
+    "Code": "RMF",
+    "Name": "Marsa Alam International Airport",
+    "Group": "Marsa Alam",
+    "Location": "Egypt"
+  },
+  {
+    "Code": "RVN",
+    "Name": "Rovaniemi Airport",
+    "Group": "Rovaniemi",
+    "Location": "Finland"
+  },
+  {
+    "Code": "SFB",
+    "Name": "Orlando Sanford International Airport",
+    "Group": "Sanford",
+    "Location": "United States"
+  },
+  {
+    "Code": "SID",
+    "Name": "Amílcar Cabral International Airport",
+    "Group": "Amilcar Cabral",
+    "Location": "Cape Verde"
+  },
+  {
+    "Code": "SPC",
+    "Name": "La Palma Airport",
+    "Group": "Santa Cruz De La Palma",
+    "Location": "Spain"
+  },
+  {
+    "Code": "TFS",
+    "Name": "Tenerife South Airport",
+    "Group": "Tenerife",
+    "Location": "Spain"
+  },
+  {
+    "Code": "UVF",
+    "Name": "Hewanorra International Airport",
+    "Group": "Hewandorra",
+    "Location": "Saint Lucia"
+  }
+]
