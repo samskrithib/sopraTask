@@ -1,0 +1,69 @@
+{
+  "out": [
+    {
+      "Type": "OUT",
+      "FromCode": "BHX",
+      "FromName": "Birmingham International Airport",
+      "ToCode": "ACE",
+      "ToName": "Lanzarote Airport",
+      "DepartureDate": "11/04/2017",
+      "DepartureTime": "08:25",
+      "ArrivalDate": "11/04/2017",
+      "ArrivalTime": "12:30",
+      "Airline": "TOM",
+      "AirlineCode": "7762",
+      "Price": 100,
+      "FlightDuration": "04:05"
+    },
+    {
+      "Type": "OUT",
+      "FromCode": "LGW",
+      "FromName": "London Gatwick Airport",
+      "ToCode": "SFB",
+      "ToName": "Orlando Sanford International Airport",
+      "DepartureDate": "11/07/2017",
+      "DepartureTime": "09:40",
+      "ArrivalDate": "11/07/2017",
+      "ArrivalTime": "13:55",
+      "Airline": "TOM",
+      "AirlineCode": "70",
+      "Price": 200,
+      "FlightDuration": "09:15"
+    }
+  ],
+  "rtn": [
+
+    {
+      "Type": "RTN",
+      "FromCode": "ACE",
+      "FromName": "Lanzarote Airport",
+      "ToCode": "BHX",
+      "ToName": "Birmingham International Airport",
+      "DepartureDate": "11/11/2017",
+      "DepartureTime": "13:30",
+      "ArrivalDate": "11/11/2017",
+      "ArrivalTime": "17:40",
+      "Airline": "TOM",
+      "AirlineCode": "7763",
+      "Price": 100,
+      "FlightDuration": "04:10"
+    },
+
+    {
+      "Type": "RTN",
+      "FromCode": "SFB",
+      "FromName": "Orlando Sanford International Airport",
+      "ToCode": "LGW",
+      "ToName": "London Gatwick Airport",
+      "DepartureDate": "11/14/2017",
+      "DepartureTime": "16:00",
+      "ArrivalDate": "11/15/2017",
+      "ArrivalTime": "05:05",
+      "Airline": "TOM",
+      "AirlineCode": "71",
+      "Price": 200,
+      "FlightDuration": "08:05"
+    }
+  ]
+
+}
