@@ -26,10 +26,12 @@ import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import {MatIconRegistry} from '@angular/material';
 import { MyDataService } from './services/my-data.service';
 import { SearchResultsComponent } from './search-results/search-results.component';
+import { HotelsComponent } from './hotels/hotels.component';
 
 const appRoutes: Routes = [
   { path: 'searchResults', component: SearchResultsComponent},
   { path: 'home', component: SearchPanelComponent },
+  { path: 'hotel', component: HotelsComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ]
 
@@ -38,7 +40,8 @@ const appRoutes: Routes = [
     AppComponent,
     NavbarComponent,
     SearchPanelComponent,
-    SearchResultsComponent
+    SearchResultsComponent,
+    HotelsComponent
   ],
   imports: [
     BrowserModule,
